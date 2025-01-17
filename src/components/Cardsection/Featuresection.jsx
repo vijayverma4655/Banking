@@ -15,44 +15,50 @@ function FeatureSection() {
       // }}
     >
       <h2 className="text-2xl font-bold text-center mt-4 mb-4 "
-      data-aos="zoom-in"
-                  data-aos-duration="500"
-                data-aos-once="true">
+      data-aos="fade-up"
+      data-aos-duration="1000"
+      data-aos-delay="1000"
+      >
         Safe & Convenient Transaction
       </h2>
       <p className="text-center text-gray-600 mb-8 mt-4 card1" 
-      data-aos="zoom-in"
-                  data-aos-duration="500"
-                data-aos-once="true">
+       data-aos="fade-up"
+       data-aos-duration="1200"
+       data-aos-delay="800">
         Want to pay anything so easy with the touch of a finger. Through UNINE,
         you can make practically any transaction.
       </p>
-      <div className="grid gap-7 sm:grid-cols-2 lg:grid-cols-4 mt-8 card1"  data-aos="fade-up"
-      data-aos-duration="500"
-    data-aos-delay="700">
+      <div className="grid gap-7 sm:grid-cols-2 lg:grid-cols-4 mt-8 card1"  
+      
+      >
         <FeatureCard
+        
           icon={<FiShield />}
           title="Always Protected"
           description="Shopping with UNINE is even more secure thanks to Buyer Protection."
           bgColor="bg-white"
+      
         />
         <FeatureCard
           icon={<FiGift />}
           title="Get Reward"
           description="Shopping with UNINE is even more secure thanks to Buyer Protection."
           bgColor="bg-green-100"
+          
         />
         <FeatureCard
           icon={<FiDollarSign />}
           title="No Hidden Fees"
           description="Shopping with UNINE is even more secure thanks to Buyer Protection."
           bgColor="bg-white"
+         
         />
         <FeatureCard
           icon={<FiTruck />}
           title="Free Shipping"
           description="Shopping with UNINE is even more secure thanks to Buyer Protection."
           bgColor="bg-white"
+          
         />
       </div>
     </section>

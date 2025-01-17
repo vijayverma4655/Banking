@@ -9,13 +9,15 @@ import Review from './components/Review/Review';
 import 'aos/dist/aos.css'; 
 import Navbar from './components/Header/Navbar';
 import Hero from './components/Hero/Hero';
+import Login from './components/Login/Login';
 
 const App = () => {
   const [orderPopup, setOrderPopup] = React.useState(false);
 
-  const handleOrderPopup = () => {
-    setOrderPopup(!orderPopup);
-  };
+  // eslint-disable-next-line no-unused-vars
+const handleOrderPopup = () => {
+  setOrderPopup(!orderPopup);
+};
 
   React.useEffect(() => {
     AOS.init({
@@ -37,6 +39,7 @@ const App = () => {
       <Review />
       <Download />
       <Footer />
+      <Login/>
     </div>
   );
 };
