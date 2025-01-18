@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import  { useState } from "react";
 
 const Navbar = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -142,7 +142,10 @@ const Navbar = () => {
             data-aos-duration="400"
             data-aos-delay="1600"
           >
+            <a href="D:\Banking_project\Banking\src\components\Login\Login.jsx">
             Sign up
+          
+            </a>
           </button>
           <button
             className="bg-green-500 text-black px-4 py-2 rounded-md hover:bg-green-600"

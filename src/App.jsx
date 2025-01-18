@@ -10,7 +10,6 @@ import 'aos/dist/aos.css';
 import Navbar from './components/Header/Navbar';
 import Hero from './components/Hero/Hero';
 import Login from './components/Login/Login';
-
 const App = () => {
   const [orderPopup, setOrderPopup] = React.useState(false);
 
